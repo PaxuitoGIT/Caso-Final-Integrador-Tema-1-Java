@@ -1,3 +1,5 @@
+package Ejercicio1;
+
 public class ValoresMaximos {
     public void mostrarValoresMaximos() {
         System.out.println("Valor máximo int: " + Integer.MAX_VALUE);

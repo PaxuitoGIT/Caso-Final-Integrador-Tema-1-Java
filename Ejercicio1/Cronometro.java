@@ -1,3 +1,5 @@
+package Ejercicio1;
+
 public class Cronometro {
     private final double factorConversion;
 
@@ -35,10 +37,10 @@ public class Cronometro {
         double dias = horas / 24;
         double anios = dias / 365;
 
-        System.out.println("Segundos: " + segundos);
-        System.out.println("Minutos: " + minutos);
-        System.out.println("Horas: " + horas);
-        System.out.print("Dias: " +dias);
-        System.out.println("Años: " +anios);
+        System.out.println("Segundos: " + segundos + " segundos");
+        System.out.println("Minutos: " + minutos + " minutos");
+        System.out.println("Horas: " + horas + " horas");
+        System.out.println("Días: " + dias + " días");
+        System.out.println("Años: " + anios + " años");
     }
 }
