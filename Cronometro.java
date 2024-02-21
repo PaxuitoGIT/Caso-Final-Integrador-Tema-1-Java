@@ -28,4 +28,17 @@ public class Cronometro {
     public double convertirAnios(double anios) {
         return convertirDias(anios * 365);
     }
+
+    public void mostrarTiempo(double segundos) {
+        double minutos = segundos / 60;
+        double horas = minutos / 60;
+        double dias = horas / 24;
+        double anios = dias / 365;
+
+        System.out.println("Segundos: " + segundos);
+        System.out.println("Minutos: " + minutos);
+        System.out.println("Horas: " + horas);
+        System.out.print("Dias: " +dias);
+        System.out.println("Años: " +anios);
+    }
 }
